@@ -1,2 +1,9 @@
-# leetcode-solutions
-LeetCode grind in Python 🧠🐍 A personal collection of DSA problems solved during daily practice, focused on clean solutions and strong fundamentals.
+# LeetCode Grind 🧠🐍
+
+A personal collection of LeetCode problems solved in Python as part of daily DSA practice.
+
+Focused on:
+- Clean solutions
+- Strong fundamentals
+- Consistent problem solving
+
