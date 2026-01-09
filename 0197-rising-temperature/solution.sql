@@ -1,9 +1,6 @@
-# Write your MySQL query statement below
-SELECT
-    a.Id
-FROM
-    Weather a,
-    Weather b
-WHERE
-    a.Temperature > b.Temperature
-    AND DATEDIFF(a.RecordDate, b.RecordDate) = 1;
+-- Write your PostgreSQL query statement below  
+select current.id
+from weather current
+join weather previous
+on current.recorddate=previous.recorddate+1
+where current.temperature>previous.temperature
